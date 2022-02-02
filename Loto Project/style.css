@@ -1,0 +1,97 @@
+body {
+    background: url(https://scr.vn/wp-content/uploads/2020/07/Vietnam-New-Year-Background.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ p {
+    font-family: 'Roboto', sans-serif; font-size: 20pt;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    color: orange;
+  }
+  h1 {
+     font-family: 'Roboto', sans-serif; font-size: 40pt;
+     background: linear-gradient(to right, #DA2569, #25DA96,#E4D11B,#1B2EE4);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     text-align: center;
+  }
+  p a {
+    
+    text-decoration: none;
+    color: #f1c40f;
+  }
+  
+  #squarefree {
+    font-family: Helvetica;
+    margin: 0 auto;
+    background: #5dc4de;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15pt;
+  }
+  
+  #bingotable {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  th, td {
+    font-family: Helvetica;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+  }
+  
+  .orange {
+    background: #9b59b6;
+  }
+  #content {
+      display: flex;
+      flex-direction: row;
+  }
+  td:hover {
+      background-color: aqua;
+  }
+  /* .behind {
+    display: flex;
+    flex-direction: row;
+  } */
+  /* button {
+    overflow: hidden;
+    color: #fff;
+    border-radius:  30px;
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  button::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left : -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(255deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    z-index: -1;
+    transition: transform 0.5s ease;
+  }
+  button:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), 10px -10px 25px 0 rgba(39, 200, 255, 0.5);;
+  }
+  button:hover::after{
+    transform: rotate(150deg);
+  } */
